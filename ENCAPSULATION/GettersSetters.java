@@ -21,6 +21,16 @@
        
    }
 
+
+    //GET THE PASSWORD//
+      public String getPass(){
+       return password; 
+   }
+
+ 
+
+
+
  }
 
 
@@ -34,11 +44,15 @@ public class GettersSetters
       p1.defaultName();
       System.out.println(); 
       
-      
-	  p1.setName("Renzy");
+	    p1.setName("Renzy");
       String getName = p1.getName(); 
 	 
-	  System.out.print("New name: " + getName); 
+	   System.out.print("New name: " + getName); 
+
+       // GET THE PASSWORD //
+       System.out.print(p1.getPass()); 
+ 
+
 		
 	}
 }
