@@ -11,7 +11,7 @@ class User{
  
     }
 
-    void displayUser(){
+    void displayUser(){               
       System.out.println("USERNAME: " + username); 
       System.out.println("PASSWORD: " + password);
       
@@ -29,7 +29,7 @@ class AdminUser extends User{
       }
 
 
-      void displayAdmin(){
+      void displayUser(){            //OVERRIDING    //OVERRIDING 
       System.out.println("EMAIL: " + email); 
       System.out.println("USERNAME: " + username); 
       System.out.println("PASSWORD: " + password);
@@ -46,7 +46,7 @@ public class Inherit3{
       User user = new User("RENZY", "09278459992");
       AdminUser admin = new AdminUser("RENNEL", "09278459992","senyahanrentzy@gmail.com");
 
-
+     user.displayUser();
       admin.displayUser(); 
 
      }
