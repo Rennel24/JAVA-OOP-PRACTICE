@@ -8,10 +8,10 @@ class Bank extends MainBank{
     public String email;
     private String password; 
     private int accNumber ;
-    public double balance;
+    public double balance = 0;
     private double totalBal = 0; 
     public int cashIn= 0;
-
+    public int cashOut= 0;
 
     Bank(String accholder, String eMail, String pass, int number, double bal ){
           this.accHolder = accholder;
@@ -38,16 +38,27 @@ class Bank extends MainBank{
       public String getPassword() {
           return password;
       }
-
+ 
        
      public void cashIn(){
          
        System.out.print("How many you would cash In? ");
        cashIn = myObj.nextInt(); 
-
-
+         
+       balance -= cashIn;
 
       }
+
+        public void cashOut(){
+         
+       System.out.print("How many you would cash In? ");
+       cashOut = myObj.nextInt(); 
+         
+       balance -= cashOut;
+
+      }
+
+
 
  
      
@@ -83,10 +94,6 @@ public class MainBank {
    public static Scanner myObj = new Scanner(System.in); 
         public static void main(String[] args) {
          
-
-
-
-
 
 
  /* 
@@ -137,7 +144,7 @@ public class MainBank {
         Bank bank = new Bank(accHolder, email,password,accNumber,balance); 
        // gcash.display();
 
-        bank.cashIn();
+        gcash.cashIn();
 
       
 
