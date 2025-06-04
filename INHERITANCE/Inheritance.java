@@ -1,4 +1,17 @@
 
+    
+    class subSubClass extends Subclass{
+
+         
+       void introduce(){
+        this.name = "renzy"; 
+        this.program = "BSIT"; 
+        System.out.println("My name is " + name + "  I am a " + program + " student");
+       }  
+
+    }
+    
+    
     class Subclass extends Superclass{ 
         
         
@@ -29,17 +42,17 @@
       
     }
 
-
-
 public class Inheritance
 {
 	public static void main(String[] args) {
 		
 		Superclass s1= new Superclass(); 
     	Subclass b1= new Subclass(); 
+
+        subSubClass ssc = new subSubClass(); 
 		
 		s1.display("RENZY SENYAHAN","BSIT", "24-00424", 2101);
 		
-		b1.display("RENZY SENYAHAN","BSIT", "24-00424", 2101);
+		ssc.introduce();
 	}
 }
