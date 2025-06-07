@@ -30,6 +30,19 @@ class Product{
          System.out.println("Paralized Constructor Created!!");
     }
 
+   
+
+}
+
+
+class DefaultCons{
+
+     DefaultCons(){
+
+     }
+
+
+
 }
 
 
@@ -45,10 +58,11 @@ public class constructor {
    Product p1 = new Product("Renzy", "IBM", true);
    Product p2 = new Product("Renzy", "IBM");
    Product p3 = new Product("Renzy");
-  
-
-
 
     }
+
+
+    DefaultCons d = new DefaultCons(); 
+
     
 }
