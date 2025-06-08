@@ -1,7 +1,7 @@
 
 abstract class Robot{
     
-     String name, color; 
+     String name, color;  
      double batteryLevel; 
 
       Robot(String name,String color,  double batLevel){
@@ -21,10 +21,10 @@ abstract class Robot{
 
 class Bumblebee extends Robot{
 
-
     Bumblebee(String name, String color, double batLevel){
     super(name,color, batLevel);
     }
+
 
     @Override
     void introduce(){

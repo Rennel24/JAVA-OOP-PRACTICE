@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 
-class CollegeStudent{
+ abstract class CollegeStudent{
 
      Scanner sc = new Scanner(System.in); 
 
@@ -32,7 +32,6 @@ class CollegeStudent{
 
 
     public void joinOrgs(){
-
     System.out.println("1. CICS ");
     System.out.println("2. SSC ");
     System.out.println("3. ACCESS");
@@ -47,6 +46,10 @@ class CollegeStudent{
 
     }
 
+ 
+    abstract void displaySubjects(); 
+
+    abstract void viewGrades();
 
 
 }
@@ -155,11 +158,9 @@ class FirstYear extends CollegeStudent{
 
     }
 
+   void viewGrades(){
 
-
-
-
-
+    }
 }
 
   
