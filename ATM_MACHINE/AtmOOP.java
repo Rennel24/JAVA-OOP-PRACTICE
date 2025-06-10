@@ -44,7 +44,7 @@ class ATM{
 
      Account acc ;
 
-     public ATM(Account account){
+     public ATM(Account account){    
         this.acc= account; 
         this.scanner = new Scanner(System.in);
 

@@ -1,19 +1,33 @@
 
 class Person{
 
-  String name = "RENZY"; 
+    String naMe = "RENZY"; 
+
+  public Person(String name){
+       System.out.println("HIS NAME IS: " + name);
+  }
+
+ 
 
    void sayClass(){
       System.out.println("THIS PRINTS THE METHOD OF A PARENT CLASS");
    }
+
+
 
 }
 
 class Toddler extends Person{
   String name = "jejemon"; 
 
+
+      public Toddler(){
+         super("Renzy");
+      }
+
+
    void displaySuper(){
-    System.out.println("THIS PRINTS THE ATTRIBUTE OF SUPER CLASS: " + super.name);
+    System.out.println("THIS PRINTS THE ATTRIBUTE OF SUPER CLASS: " + super.naMe);
     System.out.println("THIS PRINTS THE ATTRIBUTE OF SUB CLASS: " + name);
    }
 

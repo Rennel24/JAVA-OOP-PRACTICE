@@ -24,8 +24,9 @@ class Students{
 }
 
 class Employee{
-       String empName,  joB;
-   
+
+      String empName,  joB;
+    
     Employee(String empname, String job){
         this.empName = empname; 
         this.joB = job;
