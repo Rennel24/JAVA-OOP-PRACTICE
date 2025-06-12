@@ -41,7 +41,7 @@ class Highschool extends Student{
        
    }
 
-   int getId(){
+   int getId(){ 
      return idNumber; 
    }
 

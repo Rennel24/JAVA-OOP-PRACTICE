@@ -1,7 +1,12 @@
 
 
-public class Gui {
+public class Task2 {
+
     public static void main(String[] args) {
+        
+
+
+     
 
 
 
@@ -9,5 +14,3 @@ public class Gui {
     }
     
 }
-
-
