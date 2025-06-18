@@ -1,6 +1,14 @@
 interface Animal {
     void eat();
+    void walk();
+    void sleep();
 }
+
+
+interface Mammals{
+    
+}
+
 
 class Dog implements Animal {
     public void eat() {

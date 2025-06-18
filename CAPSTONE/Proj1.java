@@ -133,18 +133,18 @@ public class Proj1 {
 
                     System.out.print("Enter name: ");
                     name = sc.next();
-                    sc.nextLine(); // <-- This clears the leftover newline
+                    sc.nextLine();
 
                     System.out.print("Enter Gender: ");
                     gender = sc.nextLine();
 
                     System.out.print("Enter Age: ");
                     age = sc.nextInt();
-                    sc.nextLine(); // <-- Clears leftover newline again
+                    sc.nextLine(); 
 
                     System.out.print("Enter Salary: ");
                     double salary = sc.nextDouble();
-                    sc.nextLine(); // <-- Optional but safe
+                    sc.nextLine(); 
 
                     System.out.print("Enter Teacher ID: ");
                     id = sc.nextInt();

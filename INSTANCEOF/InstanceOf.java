@@ -1,8 +1,11 @@
+package INSTANCEOF;
 
-public class Task1 {
 
-    
+
+public class InstanceOf {
+
     public static void main(String[] args) {
         
     }
+    
 }

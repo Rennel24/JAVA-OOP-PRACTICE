@@ -1,8 +1,39 @@
 
+
+ class Composition{
+
+    boolean isLogical = false;
+    Product p; 
+
+    Composition(){
+        isLogical = true;
+        p = new Product();
+         
+        p.pName = "Renzyzy";
+        p.comPany = "Apple";
+    }
+
+    void displayStatus(){
+        System.out.println("IS COMPOSITION A LOGICAL ?  " + isLogical);
+    }
+
+    void display(){
+        System.out.println(p.pName + " " + p.comPany);
+    }
+   
+
+ }
+
+
+
+
 class Product{
   
  String pName, comPany; 
  Boolean isHealthy;
+
+
+
 
     Product(){                //DEFAULT CONSTRUCTOR
         this.pName = "DEFAULT"; 
@@ -56,13 +87,21 @@ public class constructor {
    Product p = new Product(); 
 
    Product p1 = new Product("Renzy", "IBM", true);
-   Product p2 = new Product("Renzy", "IBM");
+   Product p2 = new Product("Rennel", "Amazon");
    Product p3 = new Product("Renzy");
+
+   DefaultCons d = new DefaultCons(); 
+
+
+
+   Composition c = new Composition();
+
+   c.displayStatus();
+   c.display();
+
+
 
     }
 
 
-    DefaultCons d = new DefaultCons(); 
-
-    
 }

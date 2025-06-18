@@ -1,9 +1,6 @@
 package ACCMODIFIERS;
 
 
-  
-
-
 // N O N   A C C E S S    M  O D I  F I ER
 final class Vehicle{
 
