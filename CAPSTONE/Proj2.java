@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner; 
 
 
@@ -128,11 +129,17 @@ public class Proj2 {
        int ch = sc.nextInt(); 
 
 
+     do{
+     try{
        switch(ch){
          case 1:
-         System.out.print("Enter name: ");
+      
+          System.out.print("Enter name: ");
          String name = sc.nextLine();
-         sc.next();
+         sc.next(); 
+       
+      
+      
 
          System.out.print("Enter gender: ");
          String gender = sc.next();
@@ -144,7 +151,7 @@ public class Proj2 {
          System.out.print("Enter Student ID");
          int studentId = sc.nextInt(); 
 
-         System.out.print("Enter Grade Level");
+         System.out.print("Enter Year Level");
          String gradeLevel =  sc.next();
          sc.next();
          
@@ -177,6 +184,13 @@ public class Proj2 {
          
        
        }
+     }catch(InputMismatchException e){
+         System.out.println("DATA TYPE ERROR");
+     }
+
+
+   }while(true);
+     
 
      }
 

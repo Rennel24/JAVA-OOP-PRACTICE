@@ -3,38 +3,32 @@ class Person{
     private String name; 
     private int age; 
 
-    Person(String name, int age){
+   public Person(String name, int age){
         this.name = name; 
         this.age = age;
     }
 
-    void setName(String newName){
+    public void setName(String newName){
         this.name = newName;  
     }
 
-    String getName(){
+    public String getName(){
         return name; 
     }
 
-    void setaAge(int newAge){
+    public void setaAge(int newAge){
         this.age = newAge;  
     }
 
-    int getAge(){
+    public int getAge(){
         return age;
     }
 
-    void display(){
+    public void display(){
         System.out.println("NAME: " + name);
         System.out.println("AGE: " + age);
 
     }
-
-
-
-
-
-
 
 }
 
