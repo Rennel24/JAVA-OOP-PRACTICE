@@ -139,12 +139,10 @@ class Portal{
      
 
      public void run(){
-        
          for(int i = 0; i < 2; i++){
             askAlumniInfo();
             admin.addAlumni(alumni);
          }
-        
           admin.showAllAlumni();          // FOR ADMIN DASHBOARD
         // alumni.showAllAlumni(admin);     FOR USER/ALUMNI DASHBOARD
 

@@ -4,7 +4,9 @@ class Product {
   int quantity; 
   String product;
 
-      public Product(){}
+      public Product(){
+
+      }
 
     public Product(String product, int quantity){
         this.quantity = quantity;
@@ -23,7 +25,9 @@ class Product {
 
 class Book extends Product {
 
-    public Book(){}
+    public Book(){
+
+    }
 
     public Book(String product, int quantity){
        super(product, quantity);
@@ -56,7 +60,9 @@ class Laptop extends Product {
 
 class Phone extends Product {
 
-     public Phone(){}
+     public Phone(){
+        
+     }
 
      public Phone(String product, int quantity){
        super(product, quantity);

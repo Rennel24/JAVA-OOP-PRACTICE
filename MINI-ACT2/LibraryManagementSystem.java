@@ -31,7 +31,6 @@ class Library{
 
 
     public void borrowBook(String title){
-      
       for(Book book : books){
         if(book.getTitle().equalsIgnoreCase(title) && book.isAvailable){
             book.isAvailable = false;
@@ -44,8 +43,6 @@ class Library{
       }
      
     }
-
-
 }
 
 
