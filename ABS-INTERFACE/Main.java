@@ -54,7 +54,7 @@ public class Main {
     public static void main(String[] args) {
         //Animal a = new Dog(); 
         Dog d = new Dog(); 
-        d.eat(); // Output: Dog is eating
+        d.eat(); // Output: Dog is eating  INVOKING THE METHOD      
 
         Animal c = new Cat();
         c.walk();

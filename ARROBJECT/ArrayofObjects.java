@@ -32,8 +32,8 @@ class Employee{
         this.joB = job;
     }
 
-    void sayEmployee(){
-       System.out.println("My name is " + empName + " and my job is " + joB);
+    public String sayEmployee(){
+       return "My name is " + empName + " and my job is " + joB;
     }
 
 }
@@ -120,6 +120,17 @@ public class ArrayofObjects{
 
 
             }
+
+
+             for(int i =0; i < emp.length; i++){
+             
+               System.out.print("Employee " + (i +1) + " :" + emp[i].sayEmployee());
+               System.out.println();
+
+
+
+            }
+ 
  
 
 

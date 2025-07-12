@@ -29,9 +29,6 @@ abstract class Animal{
     abstract void eating();
    
 
-    
-
-
 }
 
 
@@ -49,8 +46,8 @@ class Tiger extends Animal implements LandAnimal{
         System.out.println(kind + " is eating..");
     }
 
-
 }
+
 
 class Bird extends Animal implements WindAnimal{
     
@@ -77,12 +74,12 @@ public class Interface {
     public static void main(String[] args) {
         
          
-      // ERROR HERE Animal b= new Bird("Wind Animal", "Green", "Himpapawid", "worms");  //USE ONLY TO ABSTRACTION
+   Animal b1= new Bird("Wind Animal", "Green", "Himpapawid", "worms");  //USE ONLY TO ABSTRACTION
  
-
     // WORKING  Bird b= new Bird("Wind Animal", "Green", "Himpapawid", "worms");
      WindAnimal b= new Bird("Wind Animal", "Green", "Himpapawid", "worms");  //USE ONLY TO ABSTRACTION
         b.fly(); 
+        b1.eating();
     }
     
 }

@@ -4,7 +4,7 @@ abstract class Robot{
      String name, color;  
      double batteryLevel; 
 
-      Robot(String name,String color,  double batLevel){
+      public Robot(String name,String color,  double batLevel){
         this.name = name; 
         this.batteryLevel = batLevel;
         this.color = color; 

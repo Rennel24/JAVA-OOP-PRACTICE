@@ -89,20 +89,15 @@ public class Hiearchy {
             new Phone()
         };
 
-
         Product prod1[] = {
             new Book("Harry Potter", 10), 
             new Laptop("Lenovo", 15),
             new Phone("Iphone", 14)
         };
 
-
         for(Product p : prod1){
               p.displayInfo();   
         }
-
-        System.out.println();
-        System.out.println();
 
         for(Product p : prod1){
             if(p instanceof Book){

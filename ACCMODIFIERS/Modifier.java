@@ -23,10 +23,6 @@ class MethodModifier extends ProtectedMethod{
         
     }
 
-   
-
-    
-
   }
 
 public class Modifier {
@@ -41,7 +37,6 @@ public class Modifier {
 
         Product p1 = new Product("IPHONE");  // PROTECTED CONSTUCTOR
    
-
 
           /*                   M E T H O D    M O D I F I E R                 */
 
