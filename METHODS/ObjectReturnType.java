@@ -68,10 +68,9 @@ public class ObjectReturnType {
         String id = s.next(); 
 
 
-
         StudentManager sm = new StudentManager(); 
 
-        Student result = sm.findStudentByID(id);
+        Student result = sm.findStudentByID(id); 
 
         if(result != null){
             System.out.println("STUDENT FOUND!!");
@@ -80,21 +79,7 @@ public class ObjectReturnType {
             System.out.println("ID not Found!!");
         }
 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+       
     }
     
 }
