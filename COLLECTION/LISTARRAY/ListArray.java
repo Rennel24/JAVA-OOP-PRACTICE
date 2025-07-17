@@ -42,6 +42,11 @@ public class ListArray {
              students.add(new Student("Renzy", "CICS", "BSIT", "24-00424"));
              students.add(new Student("Rennel", "CICS", "BSIT", "24-00424"));
 
+             /// ADDDING TO SPECIFIC INDEX
+             students.add(0, new Student("Jomar", "CICS", "BSIT", "25-00424"));
+
+             
+
 
              //ACCESSING ELEMENTS IN THE ARRAY
             students.get(1).introduce();
