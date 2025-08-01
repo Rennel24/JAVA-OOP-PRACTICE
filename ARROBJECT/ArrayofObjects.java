@@ -51,8 +51,8 @@ public class ArrayofObjects{
     //  F I R S T    W A Y       
 
     /* 
-      Students stud[] = new Students[3]; 
-
+      
+      Students[] stud = new Students[3]; 
         
       stud[0] = new Students("Renzy", "bsit", "2101", "SR001", "Java Programming");
       stud[1] = new Students("Anna", "bsit", "2102", "SR002", "Data Structures");
@@ -104,7 +104,7 @@ public class ArrayofObjects{
 */
 /*--------------------------------------------------------------------------------------------- */
 
-    //    GETTING USER INPUT FROM THE USER USING FOR LOOP  
+    //   4TH WAY (BEST WAY) GETTING USER INPUT FROM THE USER USING FOR LOOP  
 
              Employee emp[] = new Employee[3]; 
 
