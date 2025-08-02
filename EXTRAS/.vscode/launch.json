@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run EXTRAS.MainMethod with arguments",
+            "request": "launch",
+            "mainClass": "EXTRAS.MainMethod",
+            "args": "apple banana cherry"
+        }
+    ]
+}
