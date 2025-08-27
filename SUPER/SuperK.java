@@ -10,7 +10,7 @@ class Person{
  
 
    void sayClass(){
-      System.out.println("THIS PRINTS THE METHOD OF A PARENT CLASS");
+      System.out.println("THIS PRINTS THE METHOD OF A PARENT CLASS" + this.naMe);
    }
 
 

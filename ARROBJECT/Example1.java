@@ -1,3 +1,12 @@
+import java.util.ArrayList;
+
+class Department{
+
+    ArrayList<Student> students = new ArrayList<>();  
+
+    
+
+}
 class Course {
     String courseName;
     int units;
