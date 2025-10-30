@@ -9,8 +9,8 @@ class Phone{
     }
       
     public void checkSpecs(Battery bat){
-     System.out.println("BRAND: " + brand);
-     System.out.println("HASLCD: " + hasLcd);
+     System.out.println("BRAND: " + this.brand);
+     System.out.println("HASLCD: " + this.hasLcd);
      System.out.println("BATTERY: " + bat.mAh);
      System.out.println("BATTERY MODEL: " + bat.model);
      System.out.println("BATTERY WEIGHT: " + bat.weight);
